@@ -76,6 +76,7 @@ Além das funcionalidades científicas, o site foi desenvolvido com uma **estét
 ## 👨‍💻 Autor
 
 Mariana Gasparotto Palácios
+
 Desenvolvido como projeto de estudo unindo **bioinformática** e **design artístico**.  
 
 ---
