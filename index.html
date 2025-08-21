@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Analisador de Sequências DNA</title>
+
+  <!-- Fontes -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
+  <!-- Ícones -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <!-- Estilos -->
+  <link rel="stylesheet" href="styles.css"/>
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <!-- Fundo Tela Cheia -->
+  <div class="fullscreen-bg">
+    <img src="dna-structure.jpg" alt="Estrutura molecular do DNA" class="bg-image">
+    <!-- Overlay (gradiente translúcido) -->
+    <div class="bg-overlay"></div>
+  </div>
+
+  <!-- Conteúdo -->
+  <main class="content-wrapper">
+    <header class="page-header">
+      <h1>Analisador de Sequências DNA</h1>
+      <p class="subtitle">Ferramenta para análise de sequências nucleotídicas</p>
+    </header>
+
+    <section class="container">
+      <form id="dnaForm" class="card">
+        <div class="form-group with-icon">
+          <label for="dnaSequence">Sequência DNA:</label>
+          <i class="fa-solid fa-dna input-icon" aria-hidden="true"></i>
+          <textarea id="dnaSequence" placeholder="Ex: ATGCGTACGT..." required></textarea>
+        </div>
+
+        <div class="form-group with-icon">
+          <label for="dnaPattern">Buscar padrão (opcional):</label>
+          <i class="fa-solid fa-magnifying-glass input-icon" aria-hidden="true"></i>
+          <input type="text" id="dnaPattern" placeholder="Ex: ATG">
+        </div>
+
+        <button type="submit" class="btn-primary">
+          <i class="fa-solid fa-chart-simple" aria-hidden="true"></i>
+          Analisar
+        </button>
+      </form>
+
+      <div id="results" class="card hidden"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
