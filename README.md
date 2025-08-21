@@ -44,9 +44,13 @@ Além das funcionalidades científicas, o site foi desenvolvido com uma **estét
 
 ## 📂 Estrutura do Projeto
 ├── index.html # Página principal
+
 ├── styles.css # Estilização do site
+
 ├── script.js # Lógica de análise em JS
+
 ├── dna-structure.jpg # Imagem de fundo artístico
+
 └── README.md # Documentação do projeto
 
 
