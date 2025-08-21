@@ -69,6 +69,7 @@ Além das funcionalidades científicas, o site foi desenvolvido com uma **estét
 
 ## 📸 Preview
 
+![Preview do projeto](./preview.png)
 
 ---
 
